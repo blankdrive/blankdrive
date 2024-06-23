@@ -1,0 +1,125 @@
+/* General Styles */
+body {
+    font-family: 'Playwrite AU VIC', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background: url('https://images4.alphacoders.com/196/196794.jpg') no-repeat center center fixed;
+    background-size: cover;
+    transition: background 0.5s ease-in-out;
+}
+
+nav {
+    background: rgba(51, 51, 51, 0.9);
+    color: #fff;
+    padding: 1em 0;
+}
+
+nav ul {
+    list-style: none;
+    text-align: center;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a.active {
+    border-bottom: 2px solid #fff;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    animation: fadeIn 1s ease-in-out;
+}
+
+header, .about, .contact {
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 3em;
+    color: #333;
+    background: rgba(128, 128, 128, 0.6);
+    padding: 10px;
+    border-radius: 5px;
+}
+
+header p {
+    font-size: 1.2em;
+    margin: 10px 0 20px;
+    color: #555;
+    background: rgba(128, 128, 128, 0.6);
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.btn {
+    background: #808080; /* Changed to grey */
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background 0.3s ease-in-out;
+}
+
+.btn:hover {
+    background: #575757; /* Slightly darker grey on hover */
+}
+
+section h2 {
+    margin-top: 0;
+    background: rgba(128, 128, 128, 0.6);
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.about ul, .contact ul {
+    list-style: none;
+    padding: 0;
+}
+
+.about ul li, .contact ul li {
+    background: #e4e4e4;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+/* Animations */
+header h1, header p, .btn, .container {
+    animation: fadeIn 2s ease-in-out;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+body.fade-out {
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+}
