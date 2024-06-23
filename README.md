@@ -1,8 +1,8 @@
-# 👋 Hello, World!
+# 👋 Hello, World! <img src="https://media.giphy.com/media/mGcNjsfWAjY5AEZNw6/giphy.gif" width="50">
 
 Welcome to my GitHub! I'm **blankdrive**, a passionate coder who loves exploring the endless possibilities of the digital world.
 
-## 🚀 About Me
+## 🚀 About Me 
 
 - 🌟 **Passionate Coder**: I have a deep love for coding and enjoy creating solutions that make life easier and more fun.
 - 💻 **Languages**: I'm experienced in:
