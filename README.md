@@ -47,7 +47,7 @@ Here's a snapshot of the tools and technologies I frequently use:
 - **Discord**: [piesimp](@993920614240894998)
 ## 🎨 Fun Fact
 
-When I'm not coding, I enjoy gaming. 🎮
+When I'm not coding, I enjoy watching Anime and Gaming!
 
 ---
 
